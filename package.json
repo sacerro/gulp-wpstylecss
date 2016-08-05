@@ -13,7 +13,7 @@
   "contributors": [{
     "name": "Santiago Cerro López",
     "email": "soporte@lifeofchaos.com"
-  }]
+  }],
   "repository": "stefanfisk/gulp-wpstylecss",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
