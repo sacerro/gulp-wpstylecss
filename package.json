@@ -1,7 +1,7 @@
 {
   "name": "gulp-wpstylecss",
-  "version": "0.0.1",
-  "description": "A plugin for Gulp",
+  "version": "1.0.1",
+  "description": "A plugin for generate theme data in CSS",
   "keywords": [
     "gulpplugin",
     "wordpress"
@@ -10,6 +10,10 @@
     "name": "Stefan Fisk",
     "url": "http://stefanfisk.com"
   },
+  "contributors": [{
+    "name": "Santiago Cerro López"
+    "email": "soporte@lifeofchaos.com"
+  }]
   "repository": "stefanfisk/gulp-wpstylecss",
   "scripts": {
     "test": "istanbul test _mocha --report html -- test/*.js --reporter spec",
@@ -18,7 +22,6 @@
   "dependencies": {
     "gulp-util": "~2.2.0",
     "lodash": "^2.4.1",
-    "underscore.string": "^2.3.3"
   },
   "devDependencies": {
     "mocha": "*",
